@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Post-Login</title>
+</head>
+<body>
+    <div class="Form">
+        <h3>Regestration Form</h3>
+        <div class="line"></div>
+        <form action="/Done.HTML">
+            <label for="Frist-Name"   class="Lables">First Name :</label>
+            <input type="text" name="username" required placeholder="Enter Your First Name">
+            
+            <label for="Middle-Name"   class="Lables">Middle Name :</label>
+            <input type="text" name="Middle-Name" required placeholder="Enter Your Middle Name">
+
+            <label for="Surname"   class="Lables">Last Name :</label>
+            <input type="text" name="Surname" required placeholder="Enter Your Last Name">
+            <br>
+
+            <div class="Gender">
+                <h4>Gender</h4>
+                <input type="radio" id="male" name="gender" style="margin-left: 2px;">
+                <label for="male">Male</label>
+                <br>
+                <input type="radio" id="female" name="gender" style="margin-left: 2px;">
+                <label for="female">Female</label>
+                <br>
+                <input type="radio" id="Other" name="gender" style="margin-left: 2px;">
+                <label for="Other">Other</label>
+            </div>
+            
+            <label for="email"  class="Lables">Email:</label>
+            <input type="email" name="email" required placeholder="Enter Your Email">
+            <br>     
+            <label for="Phone"  class="Lables">Number +91 :</label>
+            <input type="number" name="Phone" required placeholder="Enter Your Phone Number ">
+            <br>
+            
+            <label for="course" class="Lables">course:</label>
+
+                <select name="course" id="course">
+                <option value="CSE">COMPUTER SCIENCE</option>
+                <option value="EE">ELECTRICAL ENGINEERING </option>
+                <option value="MECH">MECHANICAL</option>
+                <option value="CIVIL">CIVIL</option>
+                </select>
+
+            <p style="color: red;" id="pv"></p>
+            <br>
+            <button id="btn" type="button"  class="Lables" onclick="Done()">Submit</button>
+        </form>  
+    </div>
+    
+    <script src="app.js"></script>
+
+</body>
+</html>

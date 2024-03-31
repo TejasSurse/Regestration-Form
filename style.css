@@ -1,0 +1,44 @@
+body{
+    margin: 0;
+}
+.line{
+    
+}
+.Form{
+    height: 500px;
+    width: 450px;
+    background-color: rgb(221, 239, 255);
+    justify-content: center;
+    padding-left: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+.Lables{
+    color: black;
+    font-weight: 700;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.Form label {
+    margin-bottom: 5px; /* Add space below labels */
+    display: inline-block; /* Make labels behave like blocks */
+    width: 150px; /* Set a fixed width for labels */
+}
+.Form input[type="text"],
+.Form input[type="email"],
+.Form input[type="password"] {
+    margin-bottom: 10px; /* Add space below input fields */
+    padding: 5px; /* Add padding inside input fields */
+    width: 200px; /* Set a fixed width for input fields */
+}
+.Form button {
+    margin-top: 10px; /* Add space above buttons */
+    padding: 8px 15px; /* Add padding inside buttons */
+}
+.Form p#error-message {
+    margin-top: 5px; /* Add space above error messages */
+}

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Registration Form</title>
+</head>
+<body>
+    <div class="Form">
+        <h3>Sign in  Form</h3>
+        <div class="line"></div>
+        <form action="/reg.html">
+            <label for="username"   class="Lables">User_Name:</label>
+            <input type="text" name="username" required placeholder="Enter Your UserName">
+            <br>
+            <label for="email"  class="Lables">Email:</label>
+            <input type="email" name="email" required placeholder="Enter Your Email">
+            <br>     
+            <label for="password"  class="Lables">Password:</label>
+            <input type="password" name="password" id="p" required placeholder="Enter Your password">
+            <br>
+            <label for="password"  class="Lables">Confirm password:</label>
+            <input type="password" name="confirm_password" id="Cp" placeholder="Confirm Your password" required>
+            <p style="color: red;" id="pv"></p>
+            <br>
+            <button id="btn" type="button"  class="Lables">Submit</button>
+        </form>  
+    </div>
+    
+    <script src="app.js"></script>
+</body>
+</html>
